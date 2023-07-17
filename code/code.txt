@@ -1,0 +1,97 @@
+
+Nadeesh Malaka@DESKTOP-JOUBKBL MINGW64 ~/OneDrive/Desktop/DevCamp (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/Nadeesh Malaka/OneDrive/Desktop/DevCamp/.git/
+
+Nadeesh Malaka@DESKTOP-JOUBKBL MINGW64 ~/OneDrive/Desktop/DevCamp (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/Nadeesh Malaka/OneDrive/Desktop/DevCamp/.git/
+
+Nadeesh Malaka@DESKTOP-JOUBKBL MINGW64 ~/OneDrive/Desktop/DevCamp (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        hello.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Nadeesh Malaka@DESKTOP-JOUBKBL MINGW64 ~/OneDrive/Desktop/DevCamp (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        hello.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Nadeesh Malaka@DESKTOP-JOUBKBL MINGW64 ~/OneDrive/Desktop/DevCamp (master)
+$ git add hello.txt
+
+Nadeesh Malaka@DESKTOP-JOUBKBL MINGW64 ~/OneDrive/Desktop/DevCamp (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   hello.txt
+
+
+Nadeesh Malaka@DESKTOP-JOUBKBL MINGW64 ~/OneDrive/Desktop/DevCamp (master)
+$ git commit -m "new file added"
+[master (root-commit) f5d65dd] new file added
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello.txt
+
+Nadeesh Malaka@DESKTOP-JOUBKBL MINGW64 ~/OneDrive/Desktop/DevCamp (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Nadeesh Malaka@DESKTOP-JOUBKBL MINGW64 ~/OneDrive/Desktop/DevCamp (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        hello2.txt
+        hello3.txt
+        hello4.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Nadeesh Malaka@DESKTOP-JOUBKBL MINGW64 ~/OneDrive/Desktop/DevCamp (master)
+$ git add .
+
+Nadeesh Malaka@DESKTOP-JOUBKBL MINGW64 ~/OneDrive/Desktop/DevCamp (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   hello2.txt
+        new file:   hello3.txt
+        new file:   hello4.txt
+
+
+Nadeesh Malaka@DESKTOP-JOUBKBL MINGW64 ~/OneDrive/Desktop/DevCamp (master)
+$ git commit -m "new 2 files added"
+[master c684d23] new 2 files added
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello2.txt
+ create mode 100644 hello3.txt
+ create mode 100644 hello4.txt
+
+Nadeesh Malaka@DESKTOP-JOUBKBL MINGW64 ~/OneDrive/Desktop/DevCamp (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Nadeesh Malaka@DESKTOP-JOUBKBL MINGW64 ~/OneDrive/Desktop/DevCamp (master)
+$
